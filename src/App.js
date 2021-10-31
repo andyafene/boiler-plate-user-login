@@ -7,10 +7,6 @@ import config from "./aws-exports";
 Amplify.configure(config);
 
 class App extends React.Component {
-  constructor(props, context) {
-    super(props, context);
-  }
-
   render() {
     return (
       <Router>
